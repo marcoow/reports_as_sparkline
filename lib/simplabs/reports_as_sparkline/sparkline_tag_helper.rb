@@ -1,4 +1,4 @@
-module Saulabs #:nodoc:
+module Simplabs #:nodoc:
 
   module ReportsAsSparkline #:nodoc:
 

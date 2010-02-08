@@ -1,4 +1,4 @@
-module Saulabs #:nodoc:
+module Simplabs #:nodoc:
 
   module ReportsAsSparkline #:nodoc:
 
@@ -22,7 +22,7 @@ module Saulabs #:nodoc:
       #    reports_as_sparkline :registrations
       #  end
       # just do
-      #  Saulabs::ReportsAsSparkline::ReportCache.clear_for(User, :registrations)
+      #  Simplabs::ReportsAsSparkline::ReportCache.clear_for(User, :registrations)
       def self.clear_for(klass, report)
         self.delete_all(:conditions => {
           :model_name  => klass.name,
